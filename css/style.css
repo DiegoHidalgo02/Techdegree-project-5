@@ -21,3 +21,14 @@
     display: flex;
     justify-content: center;
 }
+
+
+.gallery{
+    display: grid;
+    width: 1250px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+
+.gallery img{
+    width: 100%;
+}
