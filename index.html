@@ -13,20 +13,25 @@
     </div>
     <div class="grid-container">
         <div class="gallery">
-            <a class="gri-item" href="img/01.jpg"><img src="img/thumbnails/01.jpg" alt="1"></a>
-            <a class="gri-item" href="img/02.jpg"><img src="img/thumbnails/02.jpg" alt="2"></a>
-            <a class="gri-item" href="img/03.jpg"><img src="img/thumbnails/03.jpg" alt="3"></a>
-            <a class="gri-item" href="img/04.jpg"><img src="img/thumbnails/04.jpg" alt="4"></a>
-            <a class="gri-item" href="img/05.jpg"><img src="img/thumbnails/05.jpg" alt="5"></a>
-            <a class="gri-item" href="img/06.jpg"><img src="img/thumbnails/06.jpg" alt="6"></a>
-            <a class="gri-item" href="img/07.jpg"><img src="img/thumbnails/07.jpg" alt="7"></a>
-            <a class="gri-item" href="img/08.jpg"><img src="img/thumbnails/08.jpg" alt="8"></a>
-            <a class="gri-item" href="img/09.jpg"><img src="img/thumbnails/09.jpg" alt="9"></a>
-            <a class="gri-item" href="img/10.jpg"><img src="img/thumbnails/10.jpg" alt="10"></a>
-            <a class="gri-item" href="img/11.jpg"><img src="img/thumbnails/11.jpg" alt="11"></a>
-            <a class="gri-item" href="img/12.jpg"><img src="img/thumbnails/12.jpg" alt="12"></a>
+            <a class="gri-item" href="img/01.jpg" data-caption="image caption"><img src="img/thumbnails/01.jpg" alt="1"></a>
+            <a class="gri-item" href="img/02.jpg" data-caption="image caption"><img src="img/thumbnails/02.jpg" alt="2"></a>
+            <a class="gri-item" href="img/03.jpg" data-caption="image caption"><img src="img/thumbnails/03.jpg" alt="3"></a>
+            <a class="gri-item" href="img/04.jpg" data-caption="image caption"><img src="img/thumbnails/04.jpg" alt="4"></a>
+            <a class="gri-item" href="img/05.jpg" data-caption="image caption"><img src="img/thumbnails/05.jpg" alt="5"></a>
+            <a class="gri-item" href="img/06.jpg" data-caption="image caption"><img src="img/thumbnails/06.jpg" alt="6"></a>
+            <a class="gri-item" href="img/07.jpg" data-caption="image caption"><img src="img/thumbnails/07.jpg" alt="7"></a>
+            <a class="gri-item" href="img/08.jpg" data-caption="image caption"><img src="img/thumbnails/08.jpg" alt="8"></a>
+            <a class="gri-item" href="img/09.jpg" data-caption="image caption"><img src="img/thumbnails/09.jpg" alt="9"></a>
+            <a class="gri-item" href="img/10.jpg" data-caption="image caption"><img src="img/thumbnails/10.jpg" alt="10"></a>
+            <a class="gri-item" href="img/11.jpg" data-caption="image caption"><img src="img/thumbnails/11.jpg" alt="11"></a>
+            <a class="gri-item" href="img/12.jpg" data-caption="image caption"><img src="img/thumbnails/12.jpg" alt="12"></a>
         </div>
     </div>
-<script src="js/baguetteBox.min.js"></script>
+    <script src="js/baguetteBox.min.js" async></script>
+    <script>
+        window.onload = function(){
+            baguetteBox.run('.gallery')
+        };
+    </script>
 </body>
 </html>
