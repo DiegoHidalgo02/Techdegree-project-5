@@ -56,7 +56,7 @@ authorSearch.addEventListener('keyup', e => {
     })
 
 
-    if (arrayDimension  > counterStyle && arrayDimension - counterStyle === 1){
+    if (arrayDimension  > counterStyle && arrayDimension - counterStyle === 1 ||  arrayDimension - counterStyle === 2 ){
 
         document.getElementById('gallery').style.gridTemplateColumns = `repeat(auto-fit, minmax(200px, ${width}))`;
         counterStyle = 0;
