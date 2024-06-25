@@ -1,5 +1,5 @@
 
-.searchBar-contanier{
+.searchBar-container{
     height: 200px;
     display: flex;
     justify-content: center;
@@ -7,7 +7,7 @@
 }
 
 
-.searchBar-contanier input{
+.searchBar-container input{
     height: 25%;
     width: 40%;
     padding-left: 1em;
