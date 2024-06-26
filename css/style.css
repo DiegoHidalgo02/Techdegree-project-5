@@ -16,16 +16,10 @@
 }
 
 
-.grid-container{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-
 .gallery{
+    margin: 0 auto;
     display: grid;
-    width: 1000px;
+    max-width: 1000px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
